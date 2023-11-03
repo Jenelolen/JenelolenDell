@@ -1,0 +1,25 @@
+INFO:__main__:data.log
+INFO:__main__:Num true positive: 7577,               
+Regression recall: 0.1937442259469447,                precision: 0.9786666666666667
+INFO:__main__:After filtering, 730 remains positive.
+INFO:__main__:After filtering,             recall: 0.09330869737363072,                precision: 0.9684931506849315
+INFO:__main__:In classification
+INFO:__main__:              precision    recall  f1-score   support
+
+   budingwei       0.01      0.92      0.01        50
+     dingwei       0.99      0.06      0.10      7577
+
+    accuracy                           0.06      7627
+   macro avg       0.50      0.49      0.06      7627
+weighted avg       0.98      0.06      0.10      7627
+
+INFO:__main__:Test accuracy: 0.06096761505178969 
+
+INFO:__main__:length: 423
+INFO:__main__:Classified Positive: 423
+INFO:__main__:After classification filtering, 329 out of 1158 remains positive.
+INFO:__main__:recall: 0.0428929655536492,            precision: 0.9878419452887538
+INFO:__main__:After regression & classification filtering 730, 306 remains positive.
+INFO:__main__:recall: 0.03985746337600633,            precision: 0.9869281045751634
+INFO:__main__:Major vote filtering  845 remains positive.
+INFO:__main__:recall: 0.10848620826184506,            precision: 0.9727810650887574

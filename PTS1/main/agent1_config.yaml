@@ -1,0 +1,9 @@
+PTS1:
+
+  dataset_path: '../data/pts1/dataset/original_data/train.csv'
+  
+  testset_path: '../data/pts1/dataset/original_data/rest_of_8k.csv'
+  
+  result_save_path: '../data/pts1/result/'
+  
+  fig_save_path: '../data/pts1/fig_process/'

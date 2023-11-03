@@ -1,0 +1,13 @@
+PTS1:
+  dingwei_path : '../data/pts1/dataset/dingwei_feature.csv'
+  budingwei_path : '../data/pts1/dataset/budingwei_feature.csv'
+  rest_path : '../data/pts1/dataset/rest_8k_feature.csv' 
+  agent1_result: '../data/pts1/result/rest_prediction_pos.csv' 
+  
+  result_save_path : '../data/pts1/result/'
+  fig_save_path : '../data/pts1/fig_process/'
+  cv: False
+  regression : False
+
+  shuffle : False
+  length : 1500
