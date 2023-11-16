@@ -1,5 +1,5 @@
 - please make sure ${PWD} is in the unzipped folder
-- data fold: saving PTS1 dataset for training and predicting
+- data fold: saving PTS1 dataset for training and predicting, to regenerate the data for use, unzip get_agent_1_data.zip to get data for agent_1.py, and run get_agent2_dataset.py for agent_2.py
 - main fold: the two models are applied step-by-step. 
 	- first run agent_1.py, whose input files and their paths are listed in agent1.config.yaml
 
